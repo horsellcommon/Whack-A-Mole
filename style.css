@@ -1,0 +1,53 @@
+#newgame{
+    margin: auto;
+    padding: 1%;
+}
+
+#molehole{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 20px;
+    border: solid thick red;
+    width: 800px;
+    height: 800px;
+}
+#burrow1{
+    width: 200px;
+    height: 200px;
+    border: solid thick green;
+}
+#burrow2{
+    width: 200px;
+    height: 200px;
+    border: solid thick green;
+}
+#burrow3{
+    width: 200px;
+    height: 200px;
+    border: solid thick green;
+}
+#burrow4{
+    width: 200px;
+    height: 200px;
+    border: solid thick green;
+}
+#burrow5{
+    width: 200px;
+    height: 200px;
+    border: solid thick green;
+}
+#burrow6{
+    width: 200px;
+    height: 200px;
+    border: solid thick green;
+}
+#whack-button{
+    cursor: grabbing;
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+    margin: auto;
+}
