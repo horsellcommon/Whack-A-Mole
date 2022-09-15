@@ -1,3 +1,6 @@
+body{
+    background-image: url(img/bliss.jpg);
+}
 #newgame{
     margin: auto;
     padding: 1%;
@@ -14,32 +17,7 @@
     width: 800px;
     height: 800px;
 }
-#burrow1{
-    width: 200px;
-    height: 200px;
-    border: solid thick green;
-}
-#burrow2{
-    width: 200px;
-    height: 200px;
-    border: solid thick green;
-}
-#burrow3{
-    width: 200px;
-    height: 200px;
-    border: solid thick green;
-}
-#burrow4{
-    width: 200px;
-    height: 200px;
-    border: solid thick green;
-}
-#burrow5{
-    width: 200px;
-    height: 200px;
-    border: solid thick green;
-}
-#burrow6{
+.burrows{
     width: 200px;
     height: 200px;
     border: solid thick green;
