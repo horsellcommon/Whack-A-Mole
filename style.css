@@ -1,11 +1,20 @@
 body{
     background-image: url(img/bliss.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#score{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    color: red;
 }
 #newgame{
     margin: auto;
     padding: 1%;
 }
-
 #molehole{
     display: flex;
     justify-content: space-evenly;
@@ -13,14 +22,15 @@ body{
     flex-wrap: wrap;
     margin: auto;
     margin-top: 20px;
-    border: solid thick red;
+    /* border: solid thick red; */
     width: 800px;
     height: 800px;
 }
 .burrows{
     width: 200px;
     height: 200px;
-    border: solid thick green;
+    /* border: solid thick green; */
+    cursor: grabbing;
 }
 #whack-button{
     cursor: grabbing;
